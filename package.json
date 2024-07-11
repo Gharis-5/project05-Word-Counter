@@ -1,9 +1,13 @@
 {
-  "name": "project05-word-counter",
+  "name": "gharis-word-counter",
   "version": "1.0.0",
   "description": "Cli based currency converter",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
